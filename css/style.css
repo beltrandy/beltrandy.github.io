@@ -1,0 +1,33 @@
+html {
+    font-family: 'Anton', serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.centerAll {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px
+    }
+    
+    .constImg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .constImg {
+        width: 80%;
+    }
+}
